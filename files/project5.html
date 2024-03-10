@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsoft Project</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 50px;
+      padding: 0;
+      background-color: #bebebe;
+    }
+    .container1 {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1 {
+      text-align: center;
+      color: #007bff;
+    }
+    h2 {
+      color: #007bff;
+    }
+    p {
+      line-height: 1.5;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .buttons {
+      text-align: center;
+    }
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background-color 0.3s ease;
+      margin: 0 10px;
+    }
+    .button:hover {
+      background-color: #0056b3;
+    }
+    
+    hr {
+      border: none;
+      height: 2px;
+      background-color: #333; /* Adjust the color to make it darker */
+      margin: 20px 0; /* Adjust the margin as needed */
+    }
+  
+  </style>
+
+</head>
+<body>
+
+<div class="container1">
+  <h1>Downloads latest PDF using selenium</h1>
+  <hr>
+  
+  <div class="section">
+    <h2>Overview :</h2>
+    <p>  
+        1.Identify any website that regularly posts publicly accessible PDF files. Examples may include some government website that posts PDFs of notices and circulars, court websites that posts PDFs of judgements, arXiv or journal websites that posts PDFs of research papers, financial regulator website that posts PDFs of corporate filings, or any other website that regularly posts PDF files.
+    <br>
+    <br>
+        2. Use Selenium IDE to record a test automation to download the latest PDF posted on your chosen website. Your script must download the latest PDF posted when the script is run, and not hardcode the file to download. You can install Selenium IDE from here: https://www.selenium.dev/selenium-ide/.
+      <br> 
+      <br> 
+        3. Use selenium side runner to execute your SIDE file via the command line and verify that your automation works as expected. You can install Selenium side runner from here: https://www.seleniumhq.org/selenium-ide/docs/en/introduction/command-line-runner/ </p>
+        
+  </div>
+  
+
+
+  <div class="section">
+    <h2>Website used: </h2> 
+                        https://rbi.org.in
+
+        
+  </div>
+
+  <div class="section">
+    <h2>To run script using code runner, so follow the steps:</h2>
+    <p>  
+
+Open terminal or Windows+R and write cmd <br>
+
+install node <br>
+
+install -g selenium-side-runner <br>
+
+Installing a browser driver: For Edge : npm install -g edgedriver <br>
+
+type command: selenium-side-runner /path/to/your-project-name.side <br>
+</div>
+
+<div class="section">
+<h2>Using Selenium IDE:</h2>
+<p>
+    Download this repository. <br>
+Open the Selenium IDE Extension in your browser. <br>
+Click open an existing project and navigate to the downloaded .side file  <br>
+Run the .SIDE file using the play button on the top side. <br>
+</p>
+  </div>
+  
+  <br>
+  
+  
+  
+  <div class="buttons">
+    <a href="https://github.com/mandarphirke/Assessment" class="button" target="_blank">View Code</a>
+    <a href="#" class="button" target="_blank">View Demo</a>
+  </div>
+  <br>
+</div>
+<br>
+<br>
+
+
+</body>
+</html>
