@@ -98,49 +98,49 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { ori
 
 
 //set of Rules defined to disabled things
-// document.addEventListener('contextmenu', function(event) {
-//     event.preventDefault();
-// });
+document.addEventListener('contextmenu', function(event) {
+    event.preventDefault();
+});
 
-// document.addEventListener('keydown', function(event) {
-//     if (event.ctrlKey && event.shiftKey && ( event.key === 'I' || event.key === 'i') ) {
-//         event.preventDefault();
-//     }
-// });
+document.addEventListener('keydown', function(event) {
+    if (event.ctrlKey && event.shiftKey && ( event.key === 'I' || event.key === 'i') ) {
+        event.preventDefault();
+    }
+});
 
-// document.addEventListener('keydown', function(event) {
-//     if ( ( event.key === 'Q' || event.key === 'q') ) {
-//         event.preventDefault();
-//     }
-// });
+document.addEventListener('keydown', function(event) {
+    if ( ( event.key === 'Q' || event.key === 'q') ) {
+        event.preventDefault();
+    }
+});
 
-// document.addEventListener('keydown', function(event) {
-//     if (event.fnKey && event.key === 'home'  ||( event.key === 'F12') ) {
-//         event.preventDefault();
-//     }
-// });
+document.addEventListener('keydown', function(event) {
+    if (event.fnKey && event.key === 'home'  ||( event.key === 'F12') ) {
+        event.preventDefault();
+    }
+});
 // //
-// document.addEventListener('copy', function(event) {
-//     event.preventDefault();
-// });
-// document.addEventListener('cut', function(event) {
-//     event.preventDefault();
-// });
-// document.addEventListener('paste', function(event) {
-//     event.preventDefault();
-// });
+document.addEventListener('copy', function(event) {
+    event.preventDefault();
+});
+document.addEventListener('cut', function(event) {
+    event.preventDefault();
+});
+document.addEventListener('paste', function(event) {
+    event.preventDefault();
+});
 
 
 // //
-// // Disable text selection using mouse
-// document.addEventListener('mousedown', function(event) {
-//     event.preventDefault();
-// });
+// Disable text selection using mouse
+document.addEventListener('mousedown', function(event) {
+    event.preventDefault();
+});
 
 // // Disable text selection using arrow keys
-// document.addEventListener('keydown', function(event) {
-//     // Check if arrow keys are pressed
-//     if (event.key.startsWith("Arrow")) {
-//         event.preventDefault();
-//     }
-// });
+document.addEventListener('keydown', function(event) {
+    // Check if arrow keys are pressed
+    if (event.key.startsWith("Arrow")) {
+        event.preventDefault();
+    }
+});
