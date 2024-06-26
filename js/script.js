@@ -95,7 +95,7 @@ ScrollReveal().reveal('.home-content h3, .home-content p, .about-content', { ori
 //   if (slideIndex > slides.length) {slideIndex = 1}
 //   slides[slideIndex-1].style.display = "block";
 //   setTimeout(showSlides, 2000); // Change image every 2 seconds
-
+//
 
 //set of Rules defined to disabled things
 document.addEventListener('contextmenu', function(event) {
